@@ -1,19 +1,26 @@
-.navbar{
-    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(162, 252, 255));
-}
-#maindiv{
-    display: flex;
-    justify-content: center;
-    border: 2px solid black;
-    height: 48.7rem;
-}
-section{
+main{
     background-image: url('./mainimg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
+.navbar{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(162, 252, 255));
+}
+.navbar-nav{
+    margin-right: 5rem;
+}
+.nav-item{
+    margin-right: 2rem;
+}
+#maindiv{
+    display: flex;
+    justify-content: center;
+   
+    height: 48.7rem;
+}
+
 #Logcard{
-    
+    transition: 0.5s;
     box-shadow: 5px 5px  rgb(12, 12, 12); 
     background-color: rgb(43, 42, 42);
     opacity: 75%;
@@ -24,14 +31,15 @@ section{
 }
 #Logcard:hover{
     transition: 0.5s;
-    box-shadow: 5px 5px  rgb(12, 12, 12); 
+    box-shadow: 5px 5px 15px  rgb(0, 0, 0); 
     background-color: rgb(43, 42, 42);
     opacity: 90%;
-    width: 36%;  
-    height: 72%;
+    width: 35.5%;  
+    height: 71.5%;
     border: 2px solid rgb(12, 12, 12);
     border-radius: 2em;
 }
+
 .navbar-brand{
     background-image: url(./Screenshot_1-removebg-preview.png);
     height: 3.5rem;
@@ -40,8 +48,6 @@ section{
     background-repeat: no-repeat;
     margin-left: 2em; 
 }
-.btn{
-    display: block;
-    margin: auto;
-
+svg:hover{
+color: rgb(0, 38, 255);
 }
