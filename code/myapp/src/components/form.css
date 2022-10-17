@@ -1,0 +1,47 @@
+.navbar{
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(162, 252, 255));
+}
+#maindiv{
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    height: 48.7rem;
+}
+section{
+    background-image: url('./mainimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Logcard{
+    
+    box-shadow: 5px 5px  rgb(12, 12, 12); 
+    background-color: rgb(43, 42, 42);
+    opacity: 75%;
+    width: 35%;  
+    height: 70%;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 2em;
+}
+#Logcard:hover{
+    transition: 0.5s;
+    box-shadow: 5px 5px  rgb(12, 12, 12); 
+    background-color: rgb(43, 42, 42);
+    opacity: 90%;
+    width: 36%;  
+    height: 72%;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 2em;
+}
+.navbar-brand{
+    background-image: url(./Screenshot_1-removebg-preview.png);
+    height: 3.5rem;
+    width: 9rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 2em; 
+}
+.btn{
+    display: block;
+    margin: auto;
+
+}
