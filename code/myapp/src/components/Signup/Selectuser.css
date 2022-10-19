@@ -1,0 +1,43 @@
+.signup
+ {
+    height: 50em;
+    background-image: url('../mainimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.signupopt
+{
+   padding-top:10%;
+
+   
+}
+.signcard{
+    padding:  8% 5% 0 0;
+    
+    color: aliceblue;
+    transition: 0.5s;
+    box-shadow: 5px 5px  rgb(12, 12, 12); 
+    background-color: rgb(43, 42, 42);
+    opacity: 75%;
+    width: 35%;  
+    height: 35rem;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 2em;
+}
+.signcard:hover{
+    padding:  8% 5% 0 0;
+   
+    transition: 0.5s;
+    box-shadow: 5px 5px 15px  rgb(0, 0, 0); 
+    background-color: rgb(43, 42, 42);
+    opacity: 90%;
+    width: 35.5%;  
+    height: 35.5rem;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 2em;
+}
+
+.form-check-input{
+    height: 4em;
+    width: 4em;
+}

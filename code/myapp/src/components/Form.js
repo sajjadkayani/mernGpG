@@ -1,12 +1,10 @@
 import React from 'react'
-import Footer from './Footer'
 import './form.css'
-import Navbar from './Navbar'
+
 
 function Form() {
     return (
         <main >
-            <Navbar/>
             <section >
                 <div id='maindiv' className='m-auto'>
                     <div id='Logcard' className=' m-5 p-5'>
@@ -24,19 +22,16 @@ function Form() {
                                 <input type="password" class="form-control" id="exampleInputPassword1" />
                                 <a href='www.google.com'>forget password </a>
                             </div>
-
-                            <button type="submit" class="btn btn-primary btn-lg w-75 d-block m-auto " id='submit'>Submit</button><br />
-                            <a href='www.google.com'>SignUp / Register new account </a>
+                            <button type="submit" class="btn btn-primary btn-lg w-50 d-block m-auto " id='submit'>Submit</button> <br/>
+                            <button type="submit" class="btn btn-danger btn-lg w-50 d-block m-auto " id='submit'>SignUP/Register</button>
+                            
 
                         </form>
                     </div>
                 </div>
             </section>
 
-            <footer>
-                <Footer/>
-            </footer>
-
+          
         </main>
     )
 }
