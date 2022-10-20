@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './form.css'
 
 
@@ -6,8 +7,8 @@ function Form() {
     return (
         <main >
             <section >
-                <div id='maindiv' className='m-auto'>
-                    <div id='Logcard' className=' m-5 p-5'>
+                <div id='maindiv' className='m-auto d-flex justify-content-center align-items-center '>
+                    <div id='Logcard' className='m-5 p-5'>
                         <form className='text-light'>
                             <div >
                                 <h1> login to Account</h1>
@@ -23,7 +24,7 @@ function Form() {
                                 <a href='www.google.com'>forget password </a>
                             </div>
                             <button type="submit" class="btn btn-primary btn-lg w-50 d-block m-auto " id='submit'>Submit</button> <br/>
-                            <button type="submit" class="btn btn-danger btn-lg w-50 d-block m-auto " id='submit'>SignUP/Register</button>
+                            <Link to="Selectuser" type="submit" class="btn btn-danger btn-lg w-50 d-block m-auto " id='submit'>SignUP/Register</Link>
                             
 
                         </form>

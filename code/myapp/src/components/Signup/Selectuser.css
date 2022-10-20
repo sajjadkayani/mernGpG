@@ -1,19 +1,13 @@
-.signup
- {
+.signup {
     height: 50em;
     background-image: url('../mainimg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.signupopt
-{
-   padding-top:10%;
-
-   
+.signupopt{
+   height: 100%; 
 }
-.signcard{
-    padding:  8% 5% 0 0;
-    
+.signcard{ 
     color: aliceblue;
     transition: 0.5s;
     box-shadow: 5px 5px  rgb(12, 12, 12); 
@@ -25,8 +19,6 @@
     border-radius: 2em;
 }
 .signcard:hover{
-    padding:  8% 5% 0 0;
-   
     transition: 0.5s;
     box-shadow: 5px 5px 15px  rgb(0, 0, 0); 
     background-color: rgb(43, 42, 42);
@@ -36,8 +28,7 @@
     border: 2px solid rgb(12, 12, 12);
     border-radius: 2em;
 }
-
 .form-check-input{
-    height: 4em;
-    width: 4em;
+    height: 4rem;
+    width: 4rem;
 }
