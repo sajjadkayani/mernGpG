@@ -1,0 +1,10 @@
+.cardpass{
+    transition: 0.5s;
+    box-shadow: 5px 5px  rgb(12, 12, 12); 
+    background-color: rgb(43, 42, 42);
+    opacity: 75%;
+    width: 35%;  
+    height: 70%;
+    border: 2px solid rgb(12, 12, 12);
+    border-radius: 2em;
+}

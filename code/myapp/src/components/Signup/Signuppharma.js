@@ -15,7 +15,7 @@ function Signuppharma() {
                       <div class="col-xl-5 d-none d-xl-block">
                         <div class="img-fluid"></div>
                       </div>
-                      <div class="col-xl-7 ">
+                      <div class="col-xl-7">
                         <div class="card-body  text-light">
                           <h2 class="mb-5 text-uppercase">Pharmacy registration form</h2>
                           <div class="row ">
@@ -37,7 +37,7 @@ function Signuppharma() {
                             <div class=" mb-2">
                               <div class="form-outline">
                                 <label class="form-label" for="form3Example1m1">Email id</label>
-                                <input type="Email" id="form3Example1m1" class="form-control form-control-lg" />
+                                <input type="email" id="form3Example1m1" class="form-control form-control-lg" />
                               </div>
                             </div>
 
@@ -87,9 +87,9 @@ function Signuppharma() {
 
                           </div>
 
-                          <div class="d-flex flex-column align-items-end me-5">
-                            <button type="button" class="btn btn-light btn-lg w-75  " >Reset all</button> <br/>
-                            <button type="button" class="btn btn-primary btn-lg w-75 ">Submit form</button>
+                          <div class="d-flex justify-content-end ">
+                            <button type="button" class="btn btn-light btn-lg w-25 me-3" >Reset all</button>
+                            <button type="button" class="btn btn-primary btn-lg">Submit form</button>
                           </div>
 
                         </div>
